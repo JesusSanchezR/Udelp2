@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Estudiantes</string>
+    <string name="txtTituloAlta">Alta Estudiante</string>
+    <string name="txtNombreAlta">Nombre</string>
+    <string name="txtApellidoPAlta">Apellido Paterno</string>
+    <string name="txtApellidoMAlta">Apellido Materno</string>
+    <string name="txtTituloNivelAcademicoAlta">Nivel academico</string>
+    <string name="txtSecundaria">Secundaria</string>
+    <string name="txtPrepa">Prepa</string>
+    <string name="txtUniversidad">Universidad</string>
+    <string name="txtTelefono">Telefono</string>
+    <string name="txtCorreo">Correo</string>
+    <string name="txtRegistrar">Registrar</string>
+    <string name="txtListaEstudiante">Lista Estudiante</string>
+    <string name="txtDetalle">Detalle Estudiante</string>
+    <string name="txtEstudianteId">Numero</string>
+    <string name="txtNumero">N</string>
+    <string name="hintNombre">Nombre</string>
+    <string name="hintApellidoPaterno">Apellido Paterno</string>
+    <string name="hintApellidoMaterno">Apellido Materno</string>
+    <string name="hintGenero">Genero</string>
+    <string name="hintUniversidadPro">Universidad Procedencias</string>
+    <string name="hintNivelAcademico">Nivel Academico</string>
+    <string name="hintTelefono">Telefono</string>
+    <string name="hintCorre">Correo</string>
+    <string name="txtEliminarEstudiante">Eliminar Estudiante</string>
+    <string name="txtEditarEstudiante">Editar Estudiante</string>
+    <string name="txtNombre">Nombre</string>
+    <string name="txtNivelAcademico">Nivel Academico</string>
+    <string name="txtEditar">Editar</string>
+    <string name="txtAlta">Alta Estudiante</string>
+    <string name="hintFechaNacimiento">Fecha Nacimiento</string>
+    <string name="txtFechaNacimiento">"Fecha Nacimiento "</string>
+</resources>

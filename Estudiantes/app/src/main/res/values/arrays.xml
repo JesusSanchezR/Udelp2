@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="generos">
+        <item>Genero</item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+    <string-array name="escuelaProcedencia">
+        <item>Escuela de procedencia</item>>
+        <item>UVM</item>
+        <item>UNAM</item>
+        <item>TEC MONTERREY</item>
+        <item>UDELP</item>
+        <item>UNITEC</item>
+        <item>ANAHUAC</item>
+    </string-array>
+</resources>

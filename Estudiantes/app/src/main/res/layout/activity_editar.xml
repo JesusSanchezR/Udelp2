@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:context=".EditarActivity"
+    android:background="@color/colorAzulRey"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txvTituloEdicion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="@string/txtEditarEstudiante"
+        android:background="@drawable/style_bordes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txvIdDetalleEdicion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="280dp"
+        android:text="@string/txtEstudianteId"
+        android:background="@drawable/style_bordes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvTituloEdicion" />
+
+    <TextView
+        android:id="@+id/txvNumeroDetalleEdicion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/txtNumero"
+        android:background="@drawable/style_bordes"
+        app:layout_constraintStart_toEndOf="@+id/txvIdDetalleEdicion"
+        app:layout_constraintTop_toBottomOf="@+id/txvTituloEdicion" />
+
+    <TextView
+        android:id="@+id/txvNombreEdicion"
+        android:layout_width="300dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/hintNombre"
+        android:background="@drawable/style_bordes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvIdDetalleEdicion" />
+
+    <TextView
+        android:id="@+id/txvApellidoPEdicion"
+        android:layout_width="300dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/hintApellidoPaterno"
+        android:background="@drawable/style_bordes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvNombreEdicion" />
+
+    <TextView
+        android:id="@+id/txvApellidoMEdicion"
+        android:layout_width="300dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/hintApellidoMaterno"
+        android:background="@drawable/style_bordes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvApellidoPEdicion" />
+
+
+    <TextView
+        android:id="@+id/txvGeneroEdicion"
+        android:layout_width="300dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/hintGenero"
+        android:background="@drawable/style_bordes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvApellidoMEdicion" />
+
+    <TextView
+        android:id="@+id/txvFechaNacimientoEdicion"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/hintFechaNacimiento"
+        android:background="@drawable/style_bordes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvGeneroEdicion" />
+
+
+
+    <TextView
+        android:id="@+id/txvNivelAcademicoEdicion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/txtNivelAcademico"
+        android:background="@drawable/style_bordes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvFechaNacimientoEdicion" />
+
+    <RadioGroup
+        android:id="@+id/rdgNivelAcademicoEdicion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:background="@drawable/style_bordes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvNivelAcademicoEdicion" >
+
+        <RadioButton
+            android:id="@+id/rdgSecundariaE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtSecundaria" />
+
+        <RadioButton
+            android:id="@+id/rdgPrepaE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtPrepa" />
+
+        <RadioButton
+            android:id="@+id/rdgUniversidadE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtUniversidad" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spnEscuelaProcedenciaEdicion"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:entries="@array/escuelaProcedencia"
+        android:background="@drawable/style_bordes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rdgNivelAcademicoEdicion" />
+
+    <EditText
+        android:id="@+id/edtTelefonoEdicion"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/txtTelefono"
+        android:background="@drawable/style_bordes"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnEscuelaProcedenciaEdicion" />
+
+    <EditText
+        android:id="@+id/edtCorreoEdicion"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/txtCorreo"
+        android:background="@drawable/style_bordes"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTelefonoEdicion" />
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/txtEditar"
+        android:background="@drawable/style_bordes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtCorreoEdicion" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
