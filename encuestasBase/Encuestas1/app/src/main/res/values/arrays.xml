@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Delegacion">
+        <item>Delegación</item>
+        <item>Álvaro Obregón</item>
+        <item>Azcapotzalco</item>
+        <item>Benito Juárez</item>
+        <item>Coyoacán</item>
+        <item>Cuajimalpa de Morelos</item>
+        <item>Cuauhtémoc</item>
+        <item>Gustavo A. Madero</item>
+        <item>Iztacalco</item>
+        <item>Iztapalapa</item>
+        <item>Magdalena Contreras</item>
+        <item>Miguel Hidalgo</item>
+        <item>Milpa Alta</item>
+        <item>Tláhuac</item>
+        <item>Tlalpan</item>
+        <item>Venustiano Carranza</item>
+        <item>Xochimilco</item>
+    </string-array>
+
+
+    <string-array name="EstadoCivil">
+        <item>Estado Civil</item>
+        <item>Casado</item>
+        <item>Soltero</item>
+
+    </string-array>
+
+    <string-array name="generos">
+        <item>Genero</item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+
+    </string-array>
+
+    <string-array name="Aero">
+        <item>¿Has viajado en AeroPatito?</item>
+        <item>Si</item>
+        <item>No</item>
+
+    </string-array>
+
+    <string-array name="Frecuencia">
+        <item>¿Con qué frecuencia lo haces?</item>
+        <item>1 a 3 veces al año</item>
+        <item>4 a 7 veces al año</item>
+        <item>Más de 7 veces al año</item>
+
+    </string-array>
+
+    <string-array name="Experiencia">
+        <item>¿Cuál es tu experiencia a bordo?</item>
+        <item>Mala</item>
+        <item>Regular</item>
+        <item>Buena</item>
+        <item>Excelente</item>
+
+    </string-array>
+
+
+
+</resources>
